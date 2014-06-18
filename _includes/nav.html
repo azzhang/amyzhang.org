@@ -1,0 +1,16 @@
+<nav class="" role="navigation">
+  <ul class="nav navbar-nav">
+    <li{% if page.section == 'photos' %} class="current"{% endif %}>
+      <a href="/photos">Photo</a>
+    </li>
+    <li{% if page.section == 'blog' %} class="current"{% endif %}>
+      <a href="/blog">Blog</a>
+    </li>
+    <li{% if page.section == 'research' %} class="current"{% endif %}>
+      <a href="/research">Research</a>
+    </li>
+    <li{% if page.section == 'about' %} class="current"{% endif %}>
+      <a href="/about">About</a>
+    </li>
+  </ul>
+</nav>
